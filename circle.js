@@ -6,7 +6,8 @@ Ares of a Circle A = PT * r * r
 PI = 3.141
 */
 
-let radius = 20;
+// let radius = 20;
+let radius = process.argv[20];
 //const PI = 3.141; // It is not change(Constant Variable)
 const PI =Math.PI;
 let diameter;
